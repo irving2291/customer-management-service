@@ -15,10 +15,12 @@ class InformationRequest extends Migration
     {
         Schema::create('information_requests', function (Blueprint $table) {
             $table->id();
+            //estado, incidencia, fecha, postulacion beca, expediente, programa es producto, via de conocimiento, fecha vigencia, excusion
             //$table->foreignId('productId');
             $table->bigInteger('productId');
             $table->integer('language');
             $table->integer('state');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
