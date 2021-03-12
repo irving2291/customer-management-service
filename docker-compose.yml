@@ -1,7 +1,7 @@
 version: '3.7'
 networks:
   customer-management:
-    name: customer-management
+    name: ctfuniber-group
     driver: bridge
 services:
   nginx:

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="81903bd5-d75b-4270-92e4-0f83e32d8add" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/ibtmp1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210108_0013" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210112_0001" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -148,12 +148,27 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1\config\nginx" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1\config\nginx" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,6 +184,11 @@
       <workItem from="1610119586353" duration="91000" />
       <workItem from="1610119725623" duration="771000" />
       <workItem from="1610133963792" duration="5429000" />
+      <workItem from="1610241459631" duration="599000" />
+      <workItem from="1610295862394" duration="62000" />
+      <workItem from="1610417456908" duration="1569000" />
+      <workItem from="1610452072467" duration="540000" />
+      <workItem from="1610483413952" duration="665000" />
     </task>
     <servers />
   </component>
