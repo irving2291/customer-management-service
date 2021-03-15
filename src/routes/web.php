@@ -24,3 +24,5 @@ $router->post('/information-request-listen', 'InformationRequestsController@list
 $router->get('/information-request', 'InformationRequestsController@index');
 
 $router->post('/language', 'LanguageController@store');
+
+$router->post('/register','UsersController@register');

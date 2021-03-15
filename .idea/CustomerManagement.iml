@@ -7,11 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/defuse/php-encryption" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/dusterio/lumen-passport" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/auth" />
@@ -22,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/console" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/container" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/cookie" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/database" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/encryption" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/events" />
@@ -38,16 +42,25 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/translation" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/validation" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/illuminate/view" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laminas/laminas-zendframework-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/lumen-framework" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/oauth2-server" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/nyholm/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/paragonie/random_compat" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phar-io/version" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-amqplib/php-amqplib" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/message-factory" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpdocumentor/type-resolver" />
@@ -62,6 +75,8 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/ramsey/collection" />
@@ -97,6 +112,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-php73" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/psr-http-message-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/service-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/string" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/translation" />

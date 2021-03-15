@@ -20,23 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81903bd5-d75b-4270-92e4-0f83e32d8add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/InformationRequestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/LanguageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Emails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/Archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/InformationRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/PreEnrolment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/Services/InformationRequestService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Delegate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Obligation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Services/DelegateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CustomerManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CustomerManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/homestead/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/failed_jobs.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/homestead/information_requests.frm" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/information_requests.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/homestead/information_requests.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/information_requests.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/homestead/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2021_01_08_195849_preenrollment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2021_01_08_195849_preenrollment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +158,22 @@
       <path value="$PROJECT_DIR$/src/vendor/brick/math" />
       <path value="$PROJECT_DIR$/src/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/src/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-translatable" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/cookie" />
+      <path value="$PROJECT_DIR$/src/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/src/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/src/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/src/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/src/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/src/vendor/league/event" />
+      <path value="$PROJECT_DIR$/src/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/src/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/src/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/src/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/src/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/src/vendor/dusterio/lumen-passport" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mRKA0clHa8h6cwHo6Es3bSFC8W" />
@@ -168,8 +186,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210112_0001" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Http/Controllers" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210315_0005" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/database/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -177,15 +195,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irvin\PhpstormProjects\CustomerManagement\src\database\migrations" />
+      <recent name="C:\Users\irvin\PhpstormProjects\CustomerManagement\src\app\Http\Controllers" />
+      <recent name="C:\Users\irvin\PhpstormProjects\CustomerManagement\src\config" />
+      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1\config\nginx" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\irvin\PhpstormProjects\CustomerManagement\src\app\Http\Controllers" />
-      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1" />
     </key>
   </component>
   <component name="RunManager">
@@ -222,6 +243,8 @@
       <workItem from="1610417456908" duration="1569000" />
       <workItem from="1610452072467" duration="540000" />
       <workItem from="1610483413952" duration="665000" />
+      <workItem from="1615816015828" duration="1420000" />
+      <workItem from="1615831018447" duration="5797000" />
     </task>
     <servers />
   </component>
@@ -241,17 +264,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="723" y="435" key="ComposerInitDialogKey" timestamp="1615832229646">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="723" y="435" key="ComposerInitDialogKey/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615832229646" />
     <state x="656" y="232" key="NewPhpClassDialog" timestamp="1615780231122">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="232" key="NewPhpClassDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615780231122" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1615831932406">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615831932406" />
+    <state x="668" y="242" width="583" height="566" key="find.popup" timestamp="1615841985155">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="242" width="583" height="566" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615841985155" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1609455114695">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-768.176.768.1336@0.0.1920.1050" timestamp="1609455114695" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1609452917595">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1615841986646">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615841986646" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-768.176.768.1336@0.0.1920.1050" timestamp="1609452917595" />
   </component>
 </project>
