@@ -1,5 +1,6 @@
 <?php
-
+use Laravel\Lumen\Routing\Router;
+/** @var Router $router */
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,8 +12,15 @@
 |
 */
 
+
+
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
 $router->get('/test', 'ExampleController@test');
+
+$router->post('/information-request-listen', 'InformationRequestsController@listen');
+$router->get('/information-request', 'InformationRequestsController@index');
+
+$router->post('/language', 'LanguageController@store');

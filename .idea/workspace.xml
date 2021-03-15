@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="81903bd5-d75b-4270-92e4-0f83e32d8add" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/InformationRequestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/LanguageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Emails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/Archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/InformationRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/PreEnrolment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/Services/InformationRequestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Delegate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Obligation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Services/DelegateService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2021_01_08_195849_preenrollment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2021_01_08_195849_preenrollment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +155,7 @@
       <path value="$PROJECT_DIR$/src/vendor/brick/math" />
       <path value="$PROJECT_DIR$/src/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/src/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-translatable" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mRKA0clHa8h6cwHo6Es3bSFC8W" />
@@ -134,10 +165,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.google.cloudcode.ide_session_index" value="20210112_0001" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Http/Controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,11 +180,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1\config\nginx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irvin\PhpstormProjects\CustomerManagement\src\app\Http\Controllers" />
+      <recent name="C:\Users\irvin\PhpstormProjects\consumerRabbitTest1" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,7 +228,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="232" key="NewPhpClassDialog" timestamp="1615780231122">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="232" key="NewPhpClassDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615780231122" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1609455114695">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

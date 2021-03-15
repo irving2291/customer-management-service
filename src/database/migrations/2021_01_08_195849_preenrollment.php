@@ -13,7 +13,7 @@ class Preenrollment extends Migration
      */
     public function up()
     {
-        Schema::create('pre_enrolment', function (Blueprint $table) {
+        /*Schema::create('pre_enrolment', function (Blueprint $table) {
             $table->id();
             // preinscripcion resolucion
             // periodo lectivo
@@ -25,7 +25,7 @@ class Preenrollment extends Migration
             $table->integer('state');
             $table->softDeletes();
             $table->timestamps();
-        });
+        });*/
     }
 
     /**
@@ -35,6 +35,6 @@ class Preenrollment extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pre_enrolment');
+        //Schema::dropIfExists('pre_enrolment');
     }
 }

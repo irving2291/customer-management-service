@@ -19,7 +19,6 @@ class InformationRequest extends Migration
             //$table->foreignId('productId');
             $table->bigInteger('productId');
             $table->integer('language');
-            $table->integer('state');
             $table->softDeletes();
             $table->timestamps();
         });

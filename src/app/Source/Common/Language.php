@@ -1,0 +1,12 @@
+<?php
+
+
+namespace App\Source\Common;
+
+
+use Illuminate\Database\Eloquent\Model;
+
+class Language extends Model
+{
+
+}
