@@ -20,8 +20,10 @@ $router->get('/', function () use ($router) {
 
 $router->get('/test', 'ExampleController@test');
 
-$router->post('/information-request-listen', 'InformationRequestsController@listen');
-$router->get('/information-request', 'InformationRequestsController@index');
+$router->group(['middleware' => 'auth:api'], function () use ($router) {
+    $router->post('/information-request-listen', 'InformationRequestsController@listen');
+    $router->get('/information-request', 'InformationRequestsController@index');
+});
 
 $router->post('/language', 'LanguageController@store');
 

@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Events\ExampleEvent;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 
 class UsersController extends Controller
 {

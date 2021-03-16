@@ -18,7 +18,7 @@ class InformationRequest extends Migration
             //estado, incidencia, fecha, postulacion beca, expediente, programa es producto, via de conocimiento, fecha vigencia, excusion
             //$table->foreignId('productId');
             $table->bigInteger('productId');
-            $table->integer('language');
+            $table->bigInteger('languageId');
             $table->softDeletes();
             $table->timestamps();
         });
