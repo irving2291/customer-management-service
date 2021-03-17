@@ -6,6 +6,9 @@ namespace App\Source\Record\Services;
 
 use App\Source\Common\Email;
 use App\Source\Common\Person;
+use App\Source\Common\Status;
+use App\Source\Common\Tracing;
+use App\Source\Record\Archive;
 use App\Source\Record\InformationRequest;
 use App\Source\Responsibility\Services\DelegateService;
 
@@ -23,33 +26,73 @@ class InformationRequestService
                 'lastName' => $payload['lastName'],
                 'gender' => $payload['gender']
             ]);
+            $person = $email->person;
         } else {
             $person = Person::create([
                 'name' => $payload['name'],
                 'lastName' => $payload['lastName'],
                 'gender' => $payload['gender']
             ]);
-            Email::create([
-                'personId' => $person->id,
-                'email' => $payload['email']
-            ]);
+            $email->personId = $person->id;
+            $email->save();
         }
-        //create person
 
         /** @var InformationRequest $informationRequest */
         $informationRequest = InformationRequest::firstOrNew([
-            'productId' => $payload
+            'productId' => $payload['productId']
         ]);
+
         if ($informationRequest->exists) {
-            // add tracing
+            if ($informationRequest->isInForce()) {// it's in force
+                $informationRequest->languageId = $payload['languageId'];
+                $informationRequest->save();
+                DelegateService::assignDelegateInformationRequestUnderResponsibility(3, $informationRequest->id);
+            } else {
+                $status = Status::where([
+                    'entity_type' => InformationRequest::class,
+                    'code' => 'NRQ'
+                ])->first();
+                self::addTracing(
+                    $informationRequest->id,
+                    $status->id,
+                    auth()->id(),
+                    $payload['message']?:'mensaje de texto por idioma'
+                );
+            }
         } else {
             $informationRequest = InformationRequest::create([
                 'productId' => $payload['productId'],
                 'languageId' => $payload['languageId']
             ]);
             // add delegate
-            DelegateService::assignDelegateInformationRequestUnderResponsibility();
+            DelegateService::assignDelegateInformationRequestUnderResponsibility(3, $informationRequest->id);
         }
-        return $informationRequest;
+
+        //dd($informationRequest->archive->person);
+        /** create archive */
+        /** @var Archive $archive */
+        $archive = Archive::firstOrNew([
+            'personId' => $person->id,
+            'file_type' => InformationRequest::class,
+            'file_id' => $informationRequest->id
+        ]);
+        if (!$archive->exists) {
+            $archive->save();
+        }
+        return [
+            'informationRequest' => $informationRequest,
+            'currentDelegate' => $informationRequest->currentDelegate
+        ];
+    }
+
+    public static function addTracing($informationRequestId, $statusId, $userId, $message)
+    {
+        Tracing::create([
+            'message' => $message,
+            'statusId' => $statusId,
+            'userId' => $userId,
+            'traceable_type' => InformationRequest::class,
+            'traceable_id' => $informationRequestId
+        ]);
     }
 }
