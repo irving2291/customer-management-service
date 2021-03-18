@@ -10,6 +10,7 @@ use App\Source\Common\Status;
 use App\Source\Common\Tracing;
 use App\Source\Record\Archive;
 use App\Source\Record\InformationRequest;
+use App\Source\Record\Rules\InformationRequestRules;
 use App\Source\Responsibility\Services\DelegateService;
 
 class InformationRequestService
@@ -43,7 +44,8 @@ class InformationRequestService
         ]);
 
         if ($informationRequest->exists) {
-            if ($informationRequest->isInForce()) {// it's in force
+            $informationRequestRules = new InformationRequestRules($informationRequest);
+            if ($informationRequestRules->eval(InformationRequestRules::LIFE_LAW)) {// it's in force
                 $informationRequest->languageId = $payload['languageId'];
                 $informationRequest->save();
                 DelegateService::assignDelegateInformationRequestUnderResponsibility(3, $informationRequest->id);

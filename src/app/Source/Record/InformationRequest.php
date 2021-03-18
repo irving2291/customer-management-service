@@ -13,6 +13,7 @@ use App\Source\Responsibility\Delegate;
  * @property Archive archive
  * @property Delegate currentDelegate
  * @property int languageId
+ * @property string created_at
  */
 class InformationRequest extends \Illuminate\Database\Eloquent\Model
 {
@@ -22,15 +23,6 @@ class InformationRequest extends \Illuminate\Database\Eloquent\Model
     public function currentDelegate()
     {
         return $this->morphOne(Delegate::class, 'assignable')->where(['main' => true]);
-    }
-
-    /**
-     *
-     * @return bool
-     */
-    public function isInForce()
-    {
-        return true;
     }
 
     public function archive()

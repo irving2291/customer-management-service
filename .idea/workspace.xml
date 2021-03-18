@@ -20,39 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81903bd5-d75b-4270-92e4-0f83e32d8add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Status.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Common/Tracing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Offered/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Offered/ProductType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Source/Offered/ProductVersion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Source/Record/Rules/InformationRequestRules.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/emails.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/emails.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/failed_jobs.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/information_requests.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/information_requests.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/migrations.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/oauth_access_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/oauth_access_tokens.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/oauth_auth_codes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/oauth_auth_codes.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/oauth_clients.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/oauth_clients.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/oauth_personal_access_clients.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/oauth_personal_access_clients.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/oauth_refresh_tokens.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/oauth_refresh_tokens.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/people.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/people.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/homestead/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/homestead/users.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/InformationRequestsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/InformationRequestsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Source/Common/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Common/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Source/Common/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Common/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Source/Record/Archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Record/Archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Source/Offered/ProductType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Offered/ProductType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Source/Record/InformationRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Record/InformationRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Source/Record/Services/InformationRequestService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Record/Services/InformationRequestService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Source/Responsibility/Delegate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Delegate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Source/Responsibility/Services/DelegateService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Source/Responsibility/Services/DelegateService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222322_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222321_common.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222323_information_request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2021_03_16_221653_offered.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_12_31_222322_offered.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +176,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210316_0015" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210317_0014" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/database/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -259,6 +237,7 @@
       <workItem from="1615831018447" duration="11292000" />
       <workItem from="1615902318177" duration="8130000" />
       <workItem from="1615929237102" duration="8015000" />
+      <workItem from="1615992192083" duration="7669000" />
     </task>
     <servers />
   </component>
@@ -290,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="723" y="435" key="ComposerInitDialogKey/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615832229646" />
-    <state x="656" y="232" key="NewPhpClassDialog" timestamp="1615953610203">
+    <state x="656" y="232" key="NewPhpClassDialog" timestamp="1616000900411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="232" key="NewPhpClassDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615953610203" />
+    <state x="656" y="232" key="NewPhpClassDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616000900411" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1615831932406">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -306,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-768.176.768.1336@0.0.1920.1050" timestamp="1609455114695" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1615941882097">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1616040948636">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615941882097" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616040948636" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-768.176.768.1336@0.0.1920.1050" timestamp="1609452917595" />
   </component>
 </project>

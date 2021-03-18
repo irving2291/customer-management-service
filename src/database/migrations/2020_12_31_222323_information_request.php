@@ -41,6 +41,7 @@ class InformationRequest extends Migration
             $table->bigInteger('productId');
             //$table->foreignId('archiveId')->constrained('archives');
             $table->bigInteger('languageId');
+            $table->json('annexes')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

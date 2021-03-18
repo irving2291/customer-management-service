@@ -11,4 +11,7 @@ class ProductType extends Model
     const PROGRAM = 'PROGRAM';
     const WEBINAR = 'WEBINAR';
     const CONGRESS = 'CONGRESS';
+    const SERVICE = 'SERVICE';
+    const EVENT = 'EVENT';
+    const LEARN = 'LEARN';
 }
